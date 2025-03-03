@@ -24,6 +24,18 @@ function clearHistory() {
     sidebarContent.innerHTML = "";
 }
 
+function updateDateTime() {
+    let now = new Date();
+    let date = now.toLocaleDateString();
+    let dateOptions = { weekday: 'short', day: '2-digit', month: 'long' };
+    let formattedDate = now.toLocaleDateString('en-GB', dateOptions);
+    document.getElementById("dateTime").innerText = `${formattedDate}`;
+}
+updateDateTime();
+
+
+
+
 
 document.querySelectorAll(".taskButton").forEach(button => {
     button.addEventListener("click", updateSidebar);

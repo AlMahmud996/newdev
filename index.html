@@ -57,12 +57,13 @@
                     <div class="flex justify-start">
                         <img class="size-12 p-2 m-5" src="assets/calender.png" alt="logo"/>
                         <div>
-                            <h3 class="card-title pt-5 text-sm">Wed,</h3>
-                            <h1 class="text-xl font-bold">Jul 28 2025</h1>
+                            <h3 id="dateTime" class="card-title pt-5 font-bold text-wrap text-xl"></h3>
                         </div>
                     </div>    
                 </div>
             </section>
+            <hr>
+            <br>
             <section class="grid grid-cols-3">
                 <div class="card ml-5 card-compact bg-slate-200 w-72 mb-3">
                     <div class="card-body">
@@ -227,8 +228,8 @@
                 </div>
             </section>
         </section>
-        <section class="">
-            <div id="sidebar-container" class="bg-slate-200 p-6 gap-3 w-64 rounded-lg min-h-screen">
+        <section class="ml-3">
+            <div id="sidebar-container" class="bg-slate-200 p-6 gap-7 w-64 rounded-lg min-h-screen">
                 <div class="mb-7">
                     <div class="text-wrap font-medium flex justify-center mb-5">
                         <img class="h-7" src="assets/activity.png" alt="">
@@ -236,6 +237,7 @@
                     </div>
                     <button id="clearHistory" class="btn primary-btn bg-blue-500 ml-10">Clear History</button>
                 </div>
+                <hr>
                 <div id="sidebar">
                     <p></p>
                 </div>
