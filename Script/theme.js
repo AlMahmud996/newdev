@@ -17,4 +17,8 @@ function clickChangeBg() {
 document.getElementById('theme-btn').addEventListener("click", function() {
     const bgColor = getRandomColor();
     document.body.style.backgroundColor = bgColor;
+
+    document.getElementById('theme-btn').addEventListener("click", function() {
+        this.style.backgroundColor = "red";
+      });
 })

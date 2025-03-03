@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
+    <header class="bg-slate-300">
         <nav class="flex justify-center">
             <div class="navbar m-3 bg-base-100 w-4/5 rounded-lg flex justify-between">
                 <div class="">
@@ -17,11 +17,63 @@
                         <a class="text-xl">Dev <span class="font-bold">Board</span></a>
                     </div>
                 </div>
-              </div>
+                <div>
+                    <button id="btn-back" class=" btn primary-btn bg-blue-500">Back to Desk</button>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-
+    <main class="bg-slate-200">
+        <h1 class="flex justify-center font-bold text-lg m-2">Blogs</h1>
+        <section class="justify-between">
+            <div class="m-3 bg-base-100 w-full flex justify-between rounded-lg">
+                <div class="">
+                    <div class="">
+                        <div>
+                            <div class="card bg-base-100 w-4/5">
+                                <div class="card-body">
+                                  <h2 class="card-title">Question-1: What are the different ways to select an element in the DOM?</h2>
+                                  <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card bg-base-100 w-4/5">
+                                <div class="card-body">
+                                  <h2 class="card-title">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
+                                  <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card bg-base-100 w-4/5">
+                                <div class="card-body">
+                                  <h2 class="card-title">Question-3: What is event delegation in the DOM?</h2>
+                                  <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card bg-base-100 w-4/5">
+                                <div class="card-body">
+                                  <h2 class="card-title">Question-4: What is event bubbling in the DOM?</h2>
+                                  <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card bg-base-100 w-4/5">
+                                <div class="card-body">
+                                  <h2 class="card-title">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+                                  <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="Script/index.js"></script>
 </body>
 </html>
