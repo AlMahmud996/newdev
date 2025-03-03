@@ -33,7 +33,9 @@ function updateDateTime() {
 }
 updateDateTime();
 
-
+function showAlert() {
+    alert("Well Done!, You Completed your Task");
+}
 
 
 
@@ -56,6 +58,7 @@ document.getElementById('disable-btn-1').addEventListener('click', function(){
     count.innerText = finalCount + 1;
 })
 document.getElementById("disable-btn-1").addEventListener("click", updateSidebar);
+document.getElementById("disable-btn-1").addEventListener("click", showAlert);
 
 
 document.getElementById('disable-btn-2').addEventListener('click', function(event){
@@ -73,7 +76,7 @@ document.getElementById('disable-btn-2').addEventListener('click', function(){
     count.innerText = finalCount + 1;
 })
 document.getElementById("disable-btn-2").addEventListener("click", updateSidebar);
-
+document.getElementById("disable-btn-2").addEventListener("click", showAlert);
 
 document.getElementById('disable-btn-3').addEventListener('click', function(event){
     event.preventDefault();
@@ -90,7 +93,7 @@ document.getElementById('disable-btn-3').addEventListener('click', function(){
     count.innerText = finalCount + 1;
 })
 document.getElementById("disable-btn-3").addEventListener("click", updateSidebar);
-
+document.getElementById("disable-btn-3").addEventListener("click", showAlert);
 
 document.getElementById('disable-btn-4').addEventListener('click', function(event){
     event.preventDefault();
@@ -107,7 +110,7 @@ document.getElementById('disable-btn-4').addEventListener('click', function(){
     count.innerText = finalCount + 1;
 })
 document.getElementById("disable-btn-4").addEventListener("click", updateSidebar);
-
+document.getElementById("disable-btn-4").addEventListener("click", showAlert);
 
 document.getElementById('disable-btn-5').addEventListener('click', function(event){
     event.preventDefault();
@@ -124,7 +127,7 @@ document.getElementById('disable-btn-5').addEventListener('click', function(){
     count.innerText = finalCount + 1;
 })
 document.getElementById("disable-btn-5").addEventListener("click", updateSidebar);
-
+document.getElementById("disable-btn-5").addEventListener("click", showAlert);
 
 document.getElementById('disable-btn-6').addEventListener('click', function(event){
     event.preventDefault();
@@ -141,5 +144,7 @@ document.getElementById('disable-btn-6').addEventListener('click', function(){
     count.innerText = finalCount + 1;
 })
 document.getElementById("disable-btn-6").addEventListener("click", updateSidebar);
+document.getElementById("disable-btn-6").addEventListener("click", showAlert);
+
 
 document.getElementById("clearHistory").addEventListener("click", clearHistory);
